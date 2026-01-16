@@ -1,0 +1,150 @@
+/* ===== Global Reset ===== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== Body ===== */
+body {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background: linear-gradient(135deg, #eef2f7, #dfe7f2);
+    padding: 30px;
+    color: #333;
+}
+
+/* ===== Heading ===== */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2c3e50;
+}
+
+/* ===== Section Cards ===== */
+section {
+    background: #ffffff;
+    margin-bottom: 25px;
+    padding: 20px 25px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+section:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+section h2 {
+    margin-bottom: 15px;
+    color: #34495e;
+}
+
+/* ===== Inputs ===== */
+input {
+    padding: 10px;
+    width: 220px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+    margin-right: 10px;
+    transition: border-color 0.2s ease;
+}
+
+input:focus {
+    border-color: #3498db;
+}
+
+/* ===== Buttons ===== */
+button {
+    padding: 10px 14px;
+    margin: 5px 5px 5px 0;
+    border: none;
+    border-radius: 6px;
+    background: #3498db;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+    background: #2980b9;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.97);
+}
+
+/* ===== Box (Effects Section) ===== */
+#box {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(135deg, #16a085, #1abc9c);
+    border-radius: 8px;
+    margin-top: 15px;
+    position: relative;
+}
+
+/* ===== Lists ===== */
+ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+li {
+    background: #f2f4f7;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    transition: background 0.2s ease;
+}
+
+li:hover {
+    background: #e1e6eb;
+}
+
+/* ===== Active Item ===== */
+.active {
+    background: #ffeaa7;
+    font-weight: bold;
+}
+
+/* ===== AJAX Output ===== */
+pre {
+    background: #2d3436;
+    color: #dfe6e9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    overflow-x: auto;
+}
+
+/* ===== Dark Theme ===== */
+.dark {
+    background: linear-gradient(135deg, #1e272e, #485460);
+    color: #ecf0f1;
+}
+
+.dark section {
+    background: #2f3640;
+    color: #ecf0f1;
+}
+
+.dark h1,
+.dark h2 {
+    color: #ecf0f1;
+}
+
+.dark li {
+    background: #414b57;
+}
+
+.dark button {
+    background: #e67e22;
+}
+
+.dark button:hover {
+    background: #d35400;
+}
