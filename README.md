@@ -63,4 +63,5 @@ $("#traverseList li.active")
   .siblings()
   .css("background", "#ddd");
 
-<img width="1920" height="2558" alt="image" src="https://github.com/user-attachments/assets/465fd6c6-5221-4da8-8ec5-36b28f13cfc4" />
+<img width="1920" height="2558" alt="image" src="https://github.com/user-attachments/assets/a2d10bd0-5034-43ce-af27-812b2bdccaf8" />
+
